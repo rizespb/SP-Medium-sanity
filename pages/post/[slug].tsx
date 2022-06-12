@@ -18,8 +18,6 @@ interface Props {
 }
 
 const Post: NextPage<Props> = ({ post }) => {
-  console.log(post)
-
   const [submitted, setSubmitted] = useState<boolean>(false)
 
   const {
